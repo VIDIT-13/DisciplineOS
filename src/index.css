@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --color-bg: #090D0B;
+  --color-card: #111916;
+  --color-primary-green: #22C55E;
+  --color-accent-green: #86EFAC;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #090D0B;
+  color: #F8FAFC;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom glow effects for Apple Fitness / Linear aesthetic */
+.glow-emerald {
+  box-shadow: 0 0 35px -5px rgba(34, 197, 94, 0.25);
+}
+
+.glow-emerald-lg {
+  box-shadow: 0 0 50px -5px rgba(34, 197, 94, 0.45);
+}
+
+.glow-text-emerald {
+  text-shadow: 0 0 16px rgba(34, 197, 94, 0.5);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090D0B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1F2922;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2B3D30;
+}

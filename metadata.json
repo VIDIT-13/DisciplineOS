@@ -1,0 +1,6 @@
+{
+  "name": "DisciplineOS",
+  "description": "Minimalistic daily discipline tracker with 5 daily targets, instant progress tracking, emerald productivity charts, and persistent history.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

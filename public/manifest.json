@@ -1,0 +1,25 @@
+{
+  "id": "/",
+  "name": "DisciplineOS",
+  "short_name": "DisciplineOS",
+  "description": "Minimalistic daily discipline tracker with 5 daily targets, instant progress tracking, emerald productivity charts, and persistent history.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#090D0B",
+  "theme_color": "#090D0B",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
